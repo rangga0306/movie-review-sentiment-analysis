@@ -65,3 +65,18 @@ The model correctly classified 8,842 of 10,000 test reviews.
 movie-review-sentiment-analysis/
 ├── README.md
 └── imdb_sentiment_analysis.ipynb
+
+How to Run
+1. Open imdb_sentiment_analysis.ipynb.
+2. Click the Open in Colab button.
+3. Select Runtime → Run all.
+4. The dataset will be downloaded automatically.
+5. Review the evaluation results and confusion matrix.
+Limitations
+- The model is designed for English-language movie reviews.
+- TF-IDF does not fully capture word context or sentence meaning.
+- The model may misclassify reviews containing sarcasm or ambiguous language.
+  Author
+
+Rangga Arya Savero
+Informatics Engineering Student focused on Data Analytics

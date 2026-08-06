@@ -2,6 +2,8 @@
 
 A machine learning project that classifies IMDb movie reviews as positive or negative using Natural Language Processing, TF-IDF, and Logistic Regression.
 
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/rangga0306/movie-review-sentiment-analysis/blob/main/imdb_sentiment_analysis.ipynb)
+
 ## Project Overview
 
 This project demonstrates an end-to-end text classification workflow, including:
@@ -64,19 +66,27 @@ The model correctly classified 8,842 of 10,000 test reviews.
 ```text
 movie-review-sentiment-analysis/
 ├── README.md
-└── imdb_sentiment_analysis.ipynb
+├── imdb_sentiment_analysis.ipynb
+└── requirements.txt
+```
 
-How to Run
-1. Open imdb_sentiment_analysis.ipynb.
-2. Click the Open in Colab button.
-3. Select Runtime → Run all.
+## How to Run
+
+1. Open `imdb_sentiment_analysis.ipynb`.
+2. Click the **Open in Colab** button.
+3. Select **Runtime → Run all**.
 4. The dataset will be downloaded automatically.
 5. Review the evaluation results and confusion matrix.
-Limitations
+
+## Limitations
+
 - The model is designed for English-language movie reviews.
 - TF-IDF does not fully capture word context or sentence meaning.
 - The model may misclassify reviews containing sarcasm or ambiguous language.
-  Author
 
-Rangga Arya Savero
+## Author
+
+**Rangga Arya Savero**  
 Informatics Engineering Student focused on Data Analytics
+
+GitHub: [@rangga0306](https://github.com/rangga0306)
